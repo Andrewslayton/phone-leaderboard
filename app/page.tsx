@@ -6,8 +6,7 @@ export default function Home() {
     <div className="bg-black text-white min-h-screen flex flex-col items-center justify-center space-y-4 ">
       <div className="flex justify-center p-10">
         <text>
-          {" "}
-          let's see if you or your friends need stop watching tiktoks in between
+          see if you or your friends need stop watching tiktoks in between
           rounds!
         </text>
       </div>
