@@ -18,7 +18,7 @@ export async function POST(req : NextRequest,) {
     console.log(error);
     return NextResponse.json({ message: "Error" }, { status: 500 });
   }
-  return NextResponse.json({ message: "Incremented" });
+  return NextResponse.json({ status: 200 });
 }
 
 
