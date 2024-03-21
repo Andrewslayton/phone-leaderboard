@@ -29,6 +29,7 @@ const Page: React.FC = () => {
 
 return (
   <div className="bg-black text-white min-h-screen space-y-4 p-10">
+    <div className= "text-3xl font-bold text-center"></div>
     {items.map((item, index) => (
       <div
         key={index}

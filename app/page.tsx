@@ -11,13 +11,19 @@ export default function Home() {
         </text>
       </div>
       <div className="flex flex-col items-center justify-center">
-        <div className="bg-transparent">⬇️</div>
-        <Link href="/leaderboard" className="bg-transparent">➡️ Leaderboard ⬅️</Link>
-        <div>⬆️</div>
+        <Link
+          href="/leaderboard"
+          className="bg-transparent  border-white rounded-md border-2 p-2 hover:bg-white hover:text-black transition duration-300 ease-in-out"
+        >
+          {" "}
+          Leaderboard{" "}
+        </Link>
       </div>
       <div className="flex justify-center p-10">
-        <Link href="https://github.com/Andrewslayton/phoneChecker">learn about the project</Link>
-        </div>
+        <Link href="https://github.com/Andrewslayton/phoneChecker">
+          learn about the project
+        </Link>
+      </div>
     </div>
   );
 }
